@@ -158,7 +158,7 @@
           <string>Remove</string>
          </property>
          <property name="icon">
-          <iconset resource="../hobbits-widgets/hobbitswidgets.qrc">
+          <iconset>
            <normaloff>:/images/icons/minus-light.png</normaloff>
            <disabledoff>:/images/icons/minus-999.png</disabledoff>:/images/icons/minus-light.png</iconset>
          </property>
@@ -182,7 +182,7 @@
           <string/>
          </property>
          <property name="icon">
-          <iconset resource="../hobbits-widgets/hobbitswidgets.qrc">
+          <iconset>
            <normaloff>:/images/icons/menu-light.png</normaloff>:/images/icons/menu-light.png</iconset>
          </property>
          <property name="toolButtonStyle">
@@ -405,7 +405,7 @@
      <x>0</x>
      <y>0</y>
      <width>1604</width>
-     <height>24</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -525,8 +525,6 @@
   <tabstop>operatorTabs</tabstop>
   <tabstop>pb_operate</tabstop>
  </tabstops>
- <resources>
-  <include location="../hobbits-widgets/hobbitswidgets.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

@@ -102,3 +102,4 @@ class HobbitsConan(ConanFile):
             for platform_plugin in glob.glob("bin/platforms/*.so*"):
                 self.run(f"patchelf --remove-rpath {platform_plugin}")
                 self.run(f"patchelf --force-rpath --set-rpath \\$ORIGIN/../../lib64:\\$ORIGIN/../../lib {platform_plugin}")
+                
